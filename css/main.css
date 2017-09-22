@@ -1,0 +1,38 @@
+main{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imagediv {
+    width: 500px;
+    height: 750px;
+    flex-grow: 3;
+}
+.spacer {
+    flex-grow: 3;
+}
+.arrow {
+    width: 20px;
+    height: 750px;
+    padding: 10px;
+    flex-grow: 1;
+}
+.leftarrow {
+    text-align: right;
+}
+.bigarrow{
+    font: 30px bolder;
+    color: teal;
+    cursor: hand;
+}
+.rightarrow::after{
+    clear:both;
+}
+.imgshow{
+    width: 100%;
+    height: 100%;
+}
+.imghide {
+  display: none;
+}
